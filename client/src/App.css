@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.header-right {
+  padding-left: 12px;
+  font-size: 30px
+}
+
+.header-left {
+  padding-right: 15px;
+  font-size: 30px
+}
+
+.main-container {
+  margin: 0px 50px 0px 50px
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-banner {
+  background-image: url(http://www.earlyblurs.com/fmsb/fmsb70.gif);
+  text-align: center;
+  width: 395px;
+  height: 300px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.prompt {
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 15px 0px 15px 15px;
+  background-color: gray;
+  color: white;
+}
+
+.value-two-label {
+  margin-left: 30px
+}
+
+.submit-button {
+  width: 150px;
+  height: 50px;
+  border-radius: 3px;
+  color: white;
+  font-size: 20px;
+  border: 1px solid blue;
+  background-color: blue;
+}
+
+.selected-song {
+  border-top: 1px solid black;
+  margin-top: 20px;
+}
+
+.song-title {
+  font-style: italic;
+}
+
+.album-title {
+  font-weight: bold
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
