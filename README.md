@@ -20,6 +20,7 @@ To run locally, clone repository and do the following:
 1. Add logic + error handling to radio buttons so that only one radio button can be selected per question (when one is selected, the other is de-selected)
 2. Reset radio buttons to empty on Submit
 3. Would be great to scrape data from an API with larger data set, but might lose the filtering capability based on all-female singers
+4. Break out radio-buttons on Main.js into separate component files in src/components
 
 
 
