@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const port = process.env.PORT || 5000;
-const helpers = require('./db/data-helpers')
+const helpers = require('./helpers/data-helpers')
 app.use(express.json())
 const data = require("./db/data");
 

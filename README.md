@@ -1,4 +1,4 @@
-![String Theory](./db/screen-shot.png "Title")
+![String Theory](./static/screen-shot.png "Title")
 A React/Express App - answer three simple questions to discover new and old string tunes that are tailored to your mood
 
 Stack:
